@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">Towerism MC</h1>
-      <h2 class="subtitle">towerism.my.pebble.host:25585</h2>
+      <h2 class="subtitle">play.towerismmc.com</h2>
     </div>
   </div>
 </template>
