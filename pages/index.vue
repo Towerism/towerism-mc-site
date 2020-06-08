@@ -7,20 +7,29 @@
             <img src="../assets/images/logo.png" />
           </div>
           <div class="subtitle">
-            <div class="play-banner">
-              <span>
-                Join us at
-              </span>
-              <b-tooltip
-                :label="addressTooltipText"
-                :active="addressTooltipActive"
-                :always="tooltipIsAlwaysOn"
-                type="is-dark"
-              >
-                <span class="play-address b-tooltip" @click="clickedAddress">
-                  {{ playAddress }}
+            <div class="banner">
+              <div class="play-banner">
+                <span>
+                  Join us at
                 </span>
-              </b-tooltip>
+                <b-tooltip
+                  :label="addressTooltipText"
+                  :active="addressTooltipActive"
+                  :always="tooltipIsAlwaysOn"
+                  type="is-dark"
+                >
+                  <span class="play-address b-tooltip" @click="clickedAddress">
+                    {{ playAddress }}
+                  </span>
+                </b-tooltip>
+              </div>
+            </div>
+            <div class="banner">
+              <div class="discord-banner">
+                <a href="https://discord.gg/wqZnDNh" id="discord-address">
+                  <font-awesome-icon :icon="['fab', 'discord']"
+                /></a>
+              </div>
             </div>
           </div>
         </div>
@@ -92,5 +101,20 @@ export default {
 .copy-icon {
   margin-left: 0.3em;
   font-size: 1em;
+}
+
+.discord-banner {
+  margin-top: 4.2em;
+  display: inline-block;
+  font-size: 1.5em;
+  background-color: #3f3f3fcc;
+  border-radius: 3px 0;
+  padding: 0.1em 0.2em;
+  max-width: 5em;
+  width: 100%;
+}
+
+.discord-banner #discord-address {
+  color: #2a2a2aef;
 }
 </style>
