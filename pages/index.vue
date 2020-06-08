@@ -11,7 +11,7 @@
               <div class="links levels">
                 <div class="link level">
                   <a id="discord-address" href="https://discord.gg/wqZnDNh">
-                    <div class="link-icon">
+                    <div class="link-icon discord-link">
                       <font-awesome-icon :icon="['fab', 'discord']" />
                     </div>
                     <div class="link-text">
@@ -130,5 +130,9 @@ export default {
   display: inline-block;
   padding: 0 2.5em;
   margin: 2.2em 0;
+}
+
+.discord-link {
+  color: #5567a6;
 }
 </style>
