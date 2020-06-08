@@ -7,6 +7,20 @@
             <img src="../assets/images/logo.png" />
           </div>
           <div class="subtitle">
+            <div>
+              <div class="links levels">
+                <div class="link level">
+                  <a id="discord-address" href="https://discord.gg/wqZnDNh">
+                    <div class="link-icon">
+                      <font-awesome-icon :icon="['fab', 'discord']" />
+                    </div>
+                    <div class="link-text">
+                      Discord
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div class="banner">
               <div class="play-banner">
                 <span>
@@ -22,13 +36,6 @@
                     {{ playAddress }}
                   </span>
                 </b-tooltip>
-              </div>
-            </div>
-            <div class="banner">
-              <div class="discord-banner">
-                <a href="https://discord.gg/wqZnDNh" id="discord-address">
-                  <font-awesome-icon :icon="['fab', 'discord']"
-                /></a>
               </div>
             </div>
           </div>
@@ -103,18 +110,26 @@ export default {
   font-size: 1em;
 }
 
-.discord-banner {
-  margin-top: 4.2em;
-  display: inline-block;
-  font-size: 1.5em;
-  background-color: #3f3f3fcc;
-  border-radius: 3px 0;
-  padding: 0.1em 0.2em;
-  max-width: 5em;
-  width: 100%;
+#discord-address {
+  color: #2a2a2aef;
 }
 
-.discord-banner #discord-address {
-  color: #2a2a2aef;
+.link {
+  font-size: 2em;
+  transition: all 0.2s ease-in-out;
+}
+
+.link a .link-text {
+  font-size: 0.5em;
+}
+
+.link:hover {
+  transform: scale(1.2);
+}
+
+.links {
+  display: inline-block;
+  padding: 0 2.5em;
+  padding-top: 2.5em;
 }
 </style>
