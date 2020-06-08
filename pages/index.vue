@@ -12,9 +12,10 @@
                 Join us at
               </span>
               <b-tooltip
-                label="Copied to clipboard!"
+                :label="addressTooltipText"
                 :active="addressTooltipActive"
-                always
+                :always="tooltipIsAlwaysOn"
+                type="is-dark"
               >
                 <span class="play-address b-tooltip" @click="clickedAddress">
                   {{ playAddress }}
@@ -34,16 +35,31 @@ import copy from 'copy-to-clipboard'
 export default {
   data() {
     return {
-      addressTooltipActive: false,
+      copiedText: 'Copied to clipboard!',
+      copyText: 'Click to copy',
+      showingCopiedMessage: false,
       playAddress: 'play.towerismmc.com'
+    }
+  },
+  computed: {
+    addressTooltipText() {
+      return this.showingCopiedMessage ? this.copiedText : this.copyText
+    },
+    tooltipIsAlwaysOn() {
+      return this.showingCopiedMessage ? true : undefined
+    },
+    addressTooltipActive() {
+      return this.showingCopiedMessage ? true : undefined
     }
   },
   methods: {
     clickedAddress() {
       const success = copy(this.playAddress, { debug: true })
       if (success) {
-        this.addressTooltipActive = true
-        setTimeout(() => (this.addressTooltipActive = false), 4000)
+        this.showingCopiedMessage = true
+        setTimeout(() => {
+          this.showingCopiedMessage = false
+        }, 4000)
       }
     }
   }
@@ -64,11 +80,17 @@ export default {
   padding: 0.9em;
   border-radius: 6px 0;
 }
+
 .play-address {
   background-color: rgba(9, 150, 158, 0.7);
   padding: 0.2em;
   border-radius: 3px;
   font-weight: 800;
   cursor: pointer;
+}
+
+.copy-icon {
+  margin-left: 0.3em;
+  font-size: 1em;
 }
 </style>
