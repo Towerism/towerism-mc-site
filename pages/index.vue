@@ -14,7 +14,6 @@
               <b-tooltip
                 label="Copied to clipboard!"
                 :active="addressTooltipActive"
-                position="is-bottom"
                 always
               >
                 <span class="play-address b-tooltip" @click="clickedAddress">
@@ -53,12 +52,9 @@ export default {
 
 <style scoped>
 .main-hero {
-  background: linear-gradient(rgba(20, 26, 35, 0.55), rgba(20, 26, 35, 0.55)),
+  background: linear-gradient(rgba(20, 26, 35, 0.35), rgba(20, 26, 35, 0.35)),
     url('../assets/images/image12.jpg') no-repeat center center fixed;
   background-size: cover;
-}
-
-.logo-container {
 }
 
 .play-banner {
