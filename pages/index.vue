@@ -90,7 +90,6 @@ export default {
 }
 
 .play-banner {
-  margin-top: 1.2em;
   background-color: rgba(15, 199, 209, 0.75);
   display: inline-block;
   padding: 0.9em;
@@ -115,12 +114,12 @@ export default {
 }
 
 .link {
-  font-size: 2em;
+  font-size: 3em;
   transition: all 0.2s ease-in-out;
 }
 
 .link a .link-text {
-  font-size: 0.5em;
+  font-size: 0.33em;
 }
 
 .link:hover {
@@ -130,6 +129,6 @@ export default {
 .links {
   display: inline-block;
   padding: 0 2.5em;
-  padding-top: 2.5em;
+  margin: 2.2em 0;
 }
 </style>
