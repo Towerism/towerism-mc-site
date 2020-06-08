@@ -8,16 +8,31 @@
           </div>
           <div class="subtitle">
             <div>
-              <div class="links levels">
-                <div class="link level">
-                  <a id="discord-address" href="https://discord.gg/wqZnDNh">
-                    <div class="link-icon discord-link">
-                      <font-awesome-icon :icon="['fab', 'discord']" />
-                    </div>
-                    <div class="link-text">
-                      Discord
-                    </div>
-                  </a>
+              <div class="links-container">
+                <div class="links level">
+                  <div class="link level-item">
+                    <a id="discord-address" href="https://discord.gg/wqZnDNh">
+                      <div class="link-icon discord-link">
+                        <font-awesome-icon :icon="['fab', 'discord']" />
+                      </div>
+                      <div class="link-text">
+                        Discord
+                      </div>
+                    </a>
+                  </div>
+                  <div class="link level-item">
+                    <a
+                      id="vote-address"
+                      href="https://minecraft-mp.com/server/259773/vote/"
+                    >
+                      <div class="link-icon">
+                        <font-awesome-icon :icon="['fas', 'vote-yea']" />
+                      </div>
+                      <div class="link-text">
+                        Vote
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -120,6 +135,7 @@ export default {
 
 .link a .link-text {
   font-size: 0.33em;
+  color: rgba(60, 50, 50, 1);
 }
 
 .link:hover {
@@ -127,12 +143,23 @@ export default {
 }
 
 .links {
-  display: inline-block;
   padding: 0 2.5em;
   margin: 2.2em 0;
 }
 
-.discord-link {
+.link + .link {
+  margin-left: 1em;
+}
+
+.links-container {
+  display: inline-block;
+}
+
+#discord-address .link-icon {
   color: #5567a6;
+}
+
+#vote-address .link-icon {
+  color: rgba(60, 50, 50, 1);
 }
 </style>
