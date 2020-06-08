@@ -26,11 +26,6 @@
         </div>
       </div>
     </div>
-    <section>
-      <div class="container">
-        Play either survival or creative.
-      </div>
-    </section>
   </div>
 </template>
 
@@ -59,8 +54,7 @@ export default {
 <style scoped>
 .main-hero {
   background: linear-gradient(rgba(20, 26, 35, 0.55), rgba(20, 26, 35, 0.55)),
-    url('../assets/images/minecraft-mountainous-bg.jpg') no-repeat center center
-      fixed;
+    url('../assets/images/image12.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
