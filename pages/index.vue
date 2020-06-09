@@ -15,9 +15,7 @@
                       <div class="link-icon discord-link">
                         <font-awesome-icon :icon="['fab', 'discord']" />
                       </div>
-                      <div class="link-text">
-                        Discord
-                      </div>
+                      <div class="link-text">Discord</div>
                     </a>
                   </div>
                   <div class="link level-item">
@@ -28,9 +26,7 @@
                       <div class="link-icon">
                         <font-awesome-icon :icon="['fas', 'vote-yea']" />
                       </div>
-                      <div class="link-text">
-                        Vote
-                      </div>
+                      <div class="link-text">Vote</div>
                     </a>
                   </div>
                 </div>
@@ -38,18 +34,18 @@
             </div>
             <div class="banner">
               <div class="play-banner">
-                <span>
-                  Join us at
-                </span>
+                <span>Join us at</span>
                 <b-tooltip
                   :label="addressTooltipText"
                   :active="addressTooltipActive"
                   :always="tooltipIsAlwaysOn"
                   type="is-dark"
                 >
-                  <span class="play-address b-tooltip" @click="clickedAddress">
-                    {{ playAddress }}
-                  </span>
+                  <span
+                    class="play-address b-tooltip"
+                    @click="clickedAddress"
+                    >{{ playAddress }}</span
+                  >
                 </b-tooltip>
               </div>
             </div>
@@ -119,13 +115,8 @@ export default {
   cursor: pointer;
 }
 
-.copy-icon {
-  margin-left: 0.3em;
-  font-size: 1em;
-}
-
-#discord-address {
-  color: #2a2a2aef;
+.link-icon {
+  color: #31445f;
 }
 
 .link {
@@ -135,7 +126,6 @@ export default {
 
 .link a .link-text {
   font-size: 0.33em;
-  color: rgba(60, 50, 50, 1);
 }
 
 .link:hover {
@@ -144,7 +134,7 @@ export default {
 
 .links {
   padding: 0 2.5em;
-  margin: 2.2em 0;
+  margin: 2.2em 0 1em 0;
 }
 
 .link + .link {
@@ -155,11 +145,12 @@ export default {
   display: inline-block;
 }
 
-#discord-address .link-icon {
-  color: #5567a6;
-}
-
-#vote-address .link-icon {
-  color: rgba(60, 50, 50, 1);
+.link-text {
+  background-color: #31445f5e;
+  display: inline-block;
+  vertical-align: top;
+  color: #dbe1ea;
+  padding: 0 0.2em;
+  border-radius: 2px;
 }
 </style>
