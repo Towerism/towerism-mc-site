@@ -9,8 +9,8 @@
           <div class="subtitle">
             <div>
               <div class="links-container">
-                <div class="links level">
-                  <div class="link level-item">
+                <div class="links">
+                  <div class="link">
                     <a id="discord-address" href="https://discord.gg/wqZnDNh">
                       <div class="link-icon discord-link">
                         <font-awesome-icon :icon="['fab', 'discord']" />
@@ -18,7 +18,7 @@
                       <div class="link-text">Discord</div>
                     </a>
                   </div>
-                  <div class="link level-item">
+                  <div class="link">
                     <a
                       id="vote-address"
                       href="https://minecraft-mp.com/server/259773/vote/"
@@ -122,6 +122,8 @@ export default {
 .link {
   font-size: 3em;
   transition: all 0.2s ease-in-out;
+  padding: 15px;
+  margin: -15px 0;
 }
 
 .link a .link-text {
@@ -133,22 +135,23 @@ export default {
 }
 
 .links {
-  padding: 0 2.5em;
-  margin: 2.2em 0 1em 0;
-}
-
-.link + .link {
-  margin-left: 1em;
+  margin: 2.2em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .links-container {
   display: inline-block;
+  line-height: 2em;
 }
 
 .link-text {
   background-color: #31445f5e;
+  line-height: 1.2em;
   display: inline-block;
   vertical-align: top;
+  margin-bottom: -2em;
   color: #dbe1ea;
   padding: 0 0.2em;
   border-radius: 2px;
