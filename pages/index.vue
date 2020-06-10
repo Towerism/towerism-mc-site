@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="hero main-hero is-fullheight is-primary">
+    <div class="hero main-hero is-fullheight">
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="title is-centered logo-container">
@@ -19,20 +19,17 @@
                     </a>
                   </div>
                   <div class="link">
-                    <a
-                      id="vote-address"
-                      href="https://minecraft-mp.com/server/259773/vote/"
-                    >
+                    <router-link id="vote-address" to="/help">
                       <div class="link-icon">
                         <font-awesome-icon :icon="['fas', 'vote-yea']" />
                       </div>
                       <div class="link-text">Vote</div>
-                    </a>
+                    </router-link>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="banner">
+            <div class="banner has-text-white">
               <div class="play-banner">
                 <span>Join us at</span>
                 <b-tooltip
@@ -94,12 +91,6 @@ export default {
 </script>
 
 <style scoped>
-.main-hero {
-  background: linear-gradient(rgba(20, 26, 35, 0.35), rgba(20, 26, 35, 0.35)),
-    url('../assets/images/image12.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
-
 .play-banner {
   background-color: rgba(15, 199, 209, 0.75);
   display: inline-block;
