@@ -26,6 +26,14 @@
                       <div class="link-text">Vote</div>
                     </router-link>
                   </div>
+                  <div class="link">
+                    <router-link id="shop-address" to="/shop">
+                      <div class="link-icon">
+                        <font-awesome-icon :icon="['fas', 'gem']" />
+                      </div>
+                      <div class="link-text">Donate</div>
+                    </router-link>
+                  </div>
                 </div>
               </div>
             </div>
