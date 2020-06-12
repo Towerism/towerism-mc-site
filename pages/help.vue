@@ -60,7 +60,7 @@ export default {
           text: 'minecraft-mp.com'
         }
       ],
-      discordLink: 'https://discord.com/invite/wqZnDNh'
+      discordLink: 'https://discord.gg/wqZnDNh'
     }
   }
 }

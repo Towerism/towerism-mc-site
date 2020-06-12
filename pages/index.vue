@@ -11,7 +11,7 @@
               <div class="links-container">
                 <div class="links">
                   <div class="link">
-                    <a id="discord-address" href="https://discord.gg/wqZnDNh">
+                    <a id="discord-address" href="https://discord.gg/hEGVVwH">
                       <div class="link-icon discord-link">
                         <font-awesome-icon :icon="['fab', 'discord']" />
                       </div>
