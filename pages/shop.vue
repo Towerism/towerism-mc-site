@@ -5,7 +5,7 @@
 <script>
 export default {
   created() {
-    location.href = 'https://towerism-mc.tebex.io/'
+    location.href = 'https://shop.towerismmc.com'
   }
 }
 </script>
