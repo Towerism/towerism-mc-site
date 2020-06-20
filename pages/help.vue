@@ -58,6 +58,10 @@ export default {
         {
           voteLink: 'https://minecraft-mp.com/server/259773/vote/',
           text: 'minecraft-mp.com'
+        },
+        {
+          voteLink: 'https://minecraftservers.org/vote/588215',
+          text: 'minecraftservers.org'
         }
       ],
       discordLink: 'https://discord.gg/wqZnDNh'
