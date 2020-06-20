@@ -62,6 +62,10 @@ export default {
         {
           voteLink: 'https://minecraftservers.org/vote/588215',
           text: 'minecraftservers.org'
+        },
+        {
+          voteLink: 'https://minecraft-server-list.com/server/462911/vote/',
+          text: 'minecraft-server-list.com'
         }
       ],
       discordLink: 'https://discord.gg/wqZnDNh'
