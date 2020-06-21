@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero has-background-grey-darker">
+    <section class="hero page-bg">
       <div class="hero-head">
         <div class="navbar">
           <div class="container">
@@ -25,6 +25,10 @@ body {
     url('../assets/images/image12.jpg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
+}
+
+.page-bg {
+  background: linear-gradient(rgb(157, 170, 177), rgb(158, 161, 192));
 }
 
 .page-container {
