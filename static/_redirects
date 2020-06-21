@@ -1,2 +1,6 @@
-http://disc.towerismmc.com/* https://towerismmc.com/help/:splat 301!
-https://disc.towerismmc.com/* https://towerismmc.com/help/:splat 301!
+http://disc.towerismmc.com/* https://towerismmc.com/help/:splat 200!
+https://disc.towerismmc.com/* https://towerismmc.com/help/:splat 200!
+http://vote.towerismmc.com/* https://towerismmc.com/help/:splat 200!
+https://vote.towerismmc.com/* https://towerismmc.com/help/:splat 200!
+http://help.towerismmc.com/* https://towerismmc.com/help/:splat 200!
+https://help.towerismmc.com/* https://towerismmc.com/help/:splat 200!
