@@ -66,6 +66,14 @@ export default {
         {
           voteLink: 'https://minecraft-server-list.com/server/462911/vote/',
           text: 'minecraft-server-list.com'
+        },
+        {
+          voteLink: 'https://minecraft-server.net/vote/towerismmc/',
+          text: 'minecraft-servers.net'
+        },
+        {
+          voteLink: 'https://topg.org/Minecraft/in-609427',
+          text: 'topg.org'
         }
       ],
       discordLink: 'https://discord.gg/wqZnDNh'

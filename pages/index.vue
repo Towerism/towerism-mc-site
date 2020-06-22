@@ -58,6 +58,18 @@
         </div>
       </div>
     </div>
+    <div class="hero has-background-grey-darker has-text-grey">
+      <div class="container">
+        Copyright © Towerism MC 2020.
+        <ul class="server-list-links">
+          <li>
+            <a href="https://www.trackyserver.com/minecraft-server">
+              TOP of Minecraft servers
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -154,5 +166,13 @@ export default {
   color: #dbe1ea;
   padding: 0 0.2em;
   border-radius: 2px;
+}
+
+.server-list-links {
+  list-style-type: none;
+}
+
+.server-list-links a {
+  color: currentColor;
 }
 </style>
