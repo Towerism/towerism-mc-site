@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <div class="container is-fluid">
+    <div class="container">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child notification has-background-white">
