@@ -10,9 +10,15 @@
                 Vote daily for our server and get <strong>rewards</strong>.
               </p>
               <div class="content">
-                We are listed at the following servers listed below. Visit the
-                links below and enter your username to get your reward. Just
-                remember that you must be online to receive the reward.
+                <p>
+                  We are listed at the following services listed below. Visit
+                  the links below and enter your username to get your reward.
+                  Just remember that you must be online to receive the reward.
+                </p>
+                <p class="is-italic">
+                  Each service lets you vote every 24 hours unless otherwise
+                  stated.
+                </p>
                 <ul class="server-lists">
                   <li v-for="server of serverLists" :key="server.text">
                     <a
@@ -21,6 +27,11 @@
                       rel="noreferrer noopener"
                       >{{ server.text }}</a
                     >
+                    <template v-if="server.parenthesis">
+                      <span class="is-size-7 margin-left-small">
+                        {{ server.parenthesis }}
+                      </span>
+                    </template>
                   </li>
 
                   <li></li>
@@ -65,7 +76,8 @@ export default {
         },
         {
           voteLink: 'https://minecraft-server-list.com/server/462911/vote/',
-          text: 'minecraft-server-list.com'
+          text: 'minecraft-server-list.com',
+          parenthesis: 'every 16h'
         },
         {
           voteLink: 'https://minecraft-server.net/vote/towerismmc/',
@@ -73,7 +85,8 @@ export default {
         },
         {
           voteLink: 'https://topg.org/Minecraft/in-609427',
-          text: 'topg.org'
+          text: 'topg.org',
+          parenthesis: 'every 12h'
         }
       ],
       discordLink: 'https://discord.gg/wqZnDNh'
@@ -85,5 +98,9 @@ export default {
 <style scoped>
 .server-lists {
   list-style-type: none;
+}
+
+.margin-left-small {
+  margin-left: 0.5em;
 }
 </style>

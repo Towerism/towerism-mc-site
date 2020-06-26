@@ -61,13 +61,6 @@
     <div class="hero has-background-grey-darker has-text-grey">
       <div class="container">
         Copyright © Towerism MC 2020.
-        <ul class="server-list-links">
-          <li>
-            <a href="https://www.trackyserver.com/minecraft-server">
-              TOP of Minecraft servers
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
