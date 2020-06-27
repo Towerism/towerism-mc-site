@@ -7,7 +7,7 @@
             <div class="content">
               <p class="title">Voting</p>
               <p class="subtitle">
-                Vote daily for our server and get <strong>rewards</strong>.
+                Vote daily for our network and get <strong>rewards</strong>.
               </p>
               <div class="content">
                 <p>
@@ -51,6 +51,32 @@
                 <a :href="discordLink" target="_blank" rel="noreferrer noopener"
                   >here</a
                 >.
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child notification has-background-white">
+            <div class="content">
+              <p class="title">Rules</p>
+              <p class="subtitle">
+                Our network's rules are about respect and protecting our
+                players' enjoyment of the game.
+              </p>
+              <div class="content">
+                We appreciate our players greatly, and we respect their time
+                investment on the server. Therefore we take breaking these very
+                seriously, because doing so undermines our players' time and
+                effort. Please follow the rules, and enjoy playing!
+                <ul>
+                  <li>No cheating</li>
+                  <li>No discussing religion</li>
+                  <li>No discussing politics</li>
+                  <li>No disclosing personal information</li>
+                  <li>No hate speech</li>
+                </ul>
               </div>
             </div>
           </article>
