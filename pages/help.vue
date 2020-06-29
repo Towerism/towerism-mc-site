@@ -71,12 +71,16 @@
                 seriously, because doing so undermines our players' time and
                 effort. Please follow the rules, and enjoy playing!
                 <ul>
+                  <li>No advertising</li>
+                  <li>No glitch exploiting</li>
+                  <li>No spamming</li>
                   <li>No griefing</li>
-                  <li>No cheating</li>
+                  <li>No modded clients</li>
+                  <li>No ban evading</li>
                   <li>No discussing religion</li>
                   <li>No discussing politics</li>
                   <li>No disclosing personal information</li>
-                  <li>No hate speech</li>
+                  <li>No harmful language to others</li>
                 </ul>
               </div>
             </div>
