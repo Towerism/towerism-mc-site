@@ -82,6 +82,7 @@
                   <li>No disclosing personal information</li>
                   <li>No harmful language to others</li>
                 </ul>
+                Not following the rules above may result in an immediate ban.
               </div>
             </div>
           </article>
