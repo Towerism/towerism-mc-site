@@ -1,13 +1,27 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="index is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <nav-header alt />
+
+      <nuxt />
+
+      <!-- Footer -->
+      <b-footer />
+
+    </div>
   </div>
 </template>
 
-<style>
-body {
-  background: linear-gradient(rgba(20, 26, 35, 0.35), rgba(20, 26, 35, 0.35)),
-    url('../assets/images/image12.jpg') no-repeat center center fixed;
-  background-size: cover;
+<script>
+import NavHeader from "~/components/NavHeader"
+import BFooter from "~/components/BFooter"
+
+export default {
+  components: {
+    NavHeader,
+    BFooter
+  }
 }
-</style>
+</script>

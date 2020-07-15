@@ -1,6 +1,6 @@
 # towerism-mc-site
 
-> Minecraft Server Website
+> A minecraft server for builders, designers, and KPop lovers
 
 ## Build Setup
 

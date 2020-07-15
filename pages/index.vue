@@ -1,171 +1,131 @@
 <template>
   <div>
-    <div class="hero main-hero is-fullheight">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <div class="title is-centered logo-container">
-            <img src="../assets/images/logo.png" />
-          </div>
-          <div class="subtitle">
-            <div>
-              <div class="links-container">
-                <div class="links">
-                  <div class="link">
-                    <a id="discord-address" href="https://discord.gg/hEGVVwH">
-                      <div class="link-icon discord-link">
-                        <font-awesome-icon :icon="['fab', 'discord']" />
-                      </div>
-                      <div class="link-text">Discord</div>
-                    </a>
-                  </div>
-                  <div class="link">
-                    <router-link id="vote-address" to="/help">
-                      <div class="link-icon">
-                        <font-awesome-icon :icon="['fas', 'vote-yea']" />
-                      </div>
-                      <div class="link-text">Vote</div>
-                    </router-link>
-                  </div>
-                  <div class="link">
-                    <router-link id="shop-address" to="/shop">
-                      <div class="link-icon">
-                        <font-awesome-icon :icon="['fas', 'gem']" />
-                      </div>
-                      <div class="link-text">Donate</div>
-                    </router-link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="banner has-text-white">
-              <div class="play-banner">
-                <span>Join us at</span>
-                <b-tooltip
-                  :label="addressTooltipText"
-                  :active="addressTooltipActive"
-                  :always="tooltipIsAlwaysOn"
-                  type="is-dark"
-                >
-                  <span
-                    class="play-address b-tooltip"
-                    @click="clickedAddress"
-                    >{{ playAddress }}</span
-                  >
-                </b-tooltip>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Banner -->
+    <section id="banner">
+
+      <!--
+        ".inner" is set up as an inline-block so it automatically expands
+        in both directions to fit whatever's inside it. This means it won't
+        automatically wrap lines, so be sure to use line breaks where
+        appropriate (<br />).
+      -->
+      <div class="inner">
+
+        <header>
+          <h2>BLUEPRINTS</h2>
+        </header>
+        <p>Finally a Minecraft server for
+        <br />builders, designers, and
+        <br />Kpop lovers
+        <br />
+        <footer>
+          <ul class="buttons stacked">
+            <li><a href="#main" class="button fit scrolly">hub.blueprints.gg</a></li>
+          </ul>
+        </footer>
+
       </div>
-    </div>
-    <div class="hero has-background-grey-darker has-text-grey">
-      <div class="container">
-        Copyright © Towerism MC 2020.
-      </div>
-    </div>
+
+    </section>
+
+  <!-- Main -->
+    <article id="main">
+
+      <header class="special container">
+        <span class="icon solid fa-university"></span>
+        <h2>Blueprints is all about creating a safe and fun environment
+        <br />
+        for builders, designers, and of course KPop fans.</h2>
+        <p>Our community consists of mature young adults who are passionate
+        <br />
+        about designing and building really cool structures. Especially doing
+        it in the challenge of Survival mode.
+        <br />
+        Many of us are also Kpop fans! Sometimes we love to talk about what's
+        <br />
+        playing on our spotify!</p>
+      </header>
+
+      <!-- One -->
+        <section class="wrapper style2 container special-alt">
+          <div class="row gtr-50">
+            <div class="col-12-narrower">
+              <header>
+                <h2>Our <strong>network</strong> offers multiple gamemodes.</h2>
+              </header>
+              <p>Our survival server is the main attraction. Every other gamemode serves as a diversion for when you need a break from survival. Turf Wars and Hide & Seek are two of the diversions; you can randomly find mystery boxes while you play. Mystery boxes contain whacky gadgets and cosmetics. There are over 500 cosmetics and gadgets to collect and show off to your friends across the server!</p>
+              <footer>
+                <ul class="buttons">
+                  <li><a href="#gamemodes" class="button scrolly">Find Out More</a></li>
+                </ul>
+              </footer>
+
+            </div>
+          </div>
+        </section>
+
+      <!-- Two -->
+        <section class="wrapper style1 container special" id="gamemodes">
+          <div class="row">
+            <div class="col-4 col-12-narrower">
+
+              <section>
+                <span class="icon solid featured fa-check"></span>
+                <header>
+                  <h3>Survival</h3>
+                </header>
+                <p>
+                  We have an economy, a crate system, cave surprises, and much more. Every single crate tier can be found just by playing. You'll have a chance to find them through certain activities. But they won't be spoiled here!
+                </p>
+              </section>
+
+            </div>
+            <div class="col-4 col-12-narrower">
+
+              <section>
+                <span class="icon solid featured fa-check"></span>
+                <header>
+                  <h3>Hide and Seek</h3>
+                </header>
+                <p>
+                  Play on 2 carefully crafted maps. Each map designed to enhance the fun for the hider and the challenge for the seeker. Earn coins while playing, and spend them on various perks. The perks you can unlock range from a higher chance to become the hider to being able to change your disguise mid-game.
+                </p>
+              </section>
+
+            </div>
+            <div class="col-4 col-12-narrower">
+
+              <section>
+                <span class="icon solid featured fa-check"></span>
+                <header>
+                  <h3>Turf Wars</h3>
+                </header>
+                <p>
+                  Two teams face off in a build-combat-build cadence to see who will be the first to claim the whole arena. This game mode has 4 unique kits to spice up the game. Everyone starts off with the same kit, but more can be unlocked by spending coins which are earned just by playing. Keep the fun going: there are 4 maps which rotate each round.
+                </p>
+              </section>
+
+            </div>
+          </div>
+        </section>
+
+      <!-- Three -->
+    </article>
+
+  <!-- CTA -->
+    <section id="cta">
+
+      <header>
+        <h2>What are you waiting for?</h2>
+        <p>You've read this far. Get on the server and play!</p>
+      </header>
+      <footer>
+        <ul class="buttons">
+          <li><a href="#" class="button primary">hub.blueprints.gg</a></li>
+          <li><a href="#" class="button">Rules</a></li>
+        </ul>
+      </footer>
+
+    </section>
   </div>
 </template>
-
-<script>
-import copy from 'copy-to-clipboard'
-
-export default {
-  data() {
-    return {
-      copiedText: 'Copied to clipboard!',
-      copyText: 'Click to copy',
-      showingCopiedMessage: false,
-      playAddress: 'play.towerismmc.com'
-    }
-  },
-  computed: {
-    addressTooltipText() {
-      return this.showingCopiedMessage ? this.copiedText : this.copyText
-    },
-    tooltipIsAlwaysOn() {
-      return this.showingCopiedMessage ? true : undefined
-    },
-    addressTooltipActive() {
-      return this.showingCopiedMessage ? true : undefined
-    }
-  },
-  methods: {
-    clickedAddress() {
-      const success = copy(this.playAddress, { debug: true })
-      if (success) {
-        this.showingCopiedMessage = true
-        setTimeout(() => {
-          this.showingCopiedMessage = false
-        }, 4000)
-      }
-    }
-  }
-}
-</script>
-
-<style scoped>
-.play-banner {
-  background-color: rgba(15, 199, 209, 0.75);
-  display: inline-block;
-  padding: 0.9em;
-  border-radius: 6px 0;
-}
-
-.play-address {
-  background-color: rgba(9, 150, 158, 0.7);
-  padding: 0.2em;
-  border-radius: 3px;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.link-icon {
-  color: #31445f;
-}
-
-.link {
-  font-size: 3em;
-  transition: all 0.2s ease-in-out;
-  padding: 15px;
-  margin: -15px 0;
-}
-
-.link a .link-text {
-  font-size: 0.33em;
-}
-
-.link:hover {
-  transform: scale(1.2);
-}
-
-.links {
-  margin: 2.2em 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.links-container {
-  display: inline-block;
-  line-height: 2em;
-}
-
-.link-text {
-  background-color: #31445f5e;
-  line-height: 1.2em;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: -2em;
-  color: #dbe1ea;
-  padding: 0 0.2em;
-  border-radius: 2px;
-}
-
-.server-list-links {
-  list-style-type: none;
-}
-
-.server-list-links a {
-  color: currentColor;
-}
-</style>
