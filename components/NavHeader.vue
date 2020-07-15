@@ -1,9 +1,9 @@
 <template>
   <header id="header" :class="myClass">
-    <h1 id="logo"><router-link to="/">Blueprints</router-link></h1>
+    <h1 id="logo"><router-link  to="/">Hub.Blueprints.gg</router-link></h1>
     <nav id="nav">
       <ul>
-        <li class="current"><router-link to="/">Welcome</router-link></li>
+        <li><router-link to="/">Welcome</router-link></li>
         <li><router-link to="/rules">Rules</router-link></li>
         <li><router-link to="/vote">Vote</router-link></li>
         <li><a href="https://discord.gg/wqZnDNh" target="blank" rel="noreferrer noopener">Discord</a></li>

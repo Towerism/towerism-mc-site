@@ -20,7 +20,7 @@
         <br />
         <footer>
           <ul class="buttons stacked">
-            <li><a href="#main" class="button fit scrolly">hub.blueprints.gg</a></li>
+            <li><ip-button /></li>
           </ul>
         </footer>
 
@@ -70,7 +70,7 @@
             <div class="col-4 col-12-narrower">
 
               <section>
-                <span class="icon solid featured fa-check"></span>
+                <span class="icon solid featured fa-drumstick-bite"></span>
                 <header>
                   <h3>Survival</h3>
                 </header>
@@ -83,7 +83,7 @@
             <div class="col-4 col-12-narrower">
 
               <section>
-                <span class="icon solid featured fa-check"></span>
+                <span class="icon solid featured fa-theater-masks"></span>
                 <header>
                   <h3>Hide and Seek</h3>
                 </header>
@@ -96,12 +96,12 @@
             <div class="col-4 col-12-narrower">
 
               <section>
-                <span class="icon solid featured fa-check"></span>
+                <span class="icon solid featured fa-fist-raised"></span>
                 <header>
                   <h3>Turf Wars</h3>
                 </header>
                 <p>
-                  Two teams face off in a build-combat-build cadence to see who will be the first to claim the whole arena. This game mode has 4 unique kits to spice up the game. Everyone starts off with the same kit, but more can be unlocked by spending coins which are earned just by playing. Keep the fun going: there are 4 maps which rotate each round.
+                  Two teams face off in a build-combat-build cadence to see who will be the first to claim the whole arena. Four unlockable kits ensure the game stays fresh. Keep the fun going: there are 4 maps which rotate each round.
                 </p>
               </section>
 
@@ -121,11 +121,20 @@
       </header>
       <footer>
         <ul class="buttons">
-          <li><a href="#" class="button primary">hub.blueprints.gg</a></li>
-          <li><a href="#" class="button">Rules</a></li>
+          <li><ip-button primary /></li>
+          <li><router-link to="/rules" class="button">Rules</router-link></li>
         </ul>
       </footer>
 
     </section>
   </div>
 </template>
+
+<script>
+import IpButton from '~/components/IpButton'
+export default {
+  components: {
+    IpButton
+  }
+}
+</script>
