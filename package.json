@@ -12,7 +12,8 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --ignore-pattern 'assets/*' ."
   },
   "lint-staged": {
-    "*.{js,vue}": "yarn lint"
+    "*.{js,vue}": "yarn lint",
+    "*.{css,js}": "stylelint"
   },
   "husky": {
     "hooks": {
