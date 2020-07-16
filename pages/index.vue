@@ -35,7 +35,7 @@
         <span class="icon solid fa-university"></span>
         <h2>Blueprints is all about creating a safe and fun environment
         <br />
-        for builders, designers, and of course KPop fans.</h2>
+        for builders, designers, and of course Kpop fans.</h2>
         <p>Our community consists of mature young adults who are passionate
         <br />
         about designing and building really cool structures. Especially doing
