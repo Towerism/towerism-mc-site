@@ -8,7 +8,7 @@
   const	$window = $(window)
 
   $window.on('load', function () {
-    const $body = $('.index')
+    const $body = $('body')
     const $header = $('#header')
     const $banner = $('#banner')
 

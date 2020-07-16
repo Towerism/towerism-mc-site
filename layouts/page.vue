@@ -1,16 +1,10 @@
 <template>
-  <div class="index is-preload">
-    <div id="page-wrapper">
+  <div id="page-wrapper">
+    <nav-header />
 
-      <!-- Header -->
-      <nav-header />
+    <nuxt />
 
-      <nuxt />
-
-      <!-- Footer -->
-      <b-footer />
-
-    </div>
+    <b-footer />
   </div>
 </template>
 
