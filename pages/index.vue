@@ -16,7 +16,7 @@
         </header>
         <p>Finally a Minecraft server for
         <br />builders, designers, and
-        <br />Kpop lovers
+        <br />Kpop fans
         <br />
         <footer>
           <ul class="buttons stacked">
