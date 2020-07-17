@@ -32,7 +32,9 @@
     <article id="main">
 
       <header class="special container">
-        <span class="icon solid fa-university"></span>
+        <span>
+          <b-icon icon="tower" heading />
+        </span>
         <h2>Blueprints is all about creating a safe and fun environment
         <br />
         for builders, designers, and of course Kpop fans.</h2>
@@ -70,7 +72,9 @@
             <div class="col-4 col-12-narrower">
 
               <section>
-                <span class="icon solid featured fa-drumstick-bite"></span>
+                <span>
+                  <b-icon icon="bread" />
+                </span>
                 <header>
                   <h3>Survival</h3>
                 </header>
@@ -83,7 +87,9 @@
             <div class="col-4 col-12-narrower">
 
               <section>
-                <span class="icon solid featured fa-theater-masks"></span>
+                <span>
+                  <b-icon icon="masks" />
+                </span>
                 <header>
                   <h3>Hide and Seek</h3>
                 </header>
@@ -96,7 +102,9 @@
             <div class="col-4 col-12-narrower">
 
               <section>
-                <span class="icon solid featured fa-fist-raised"></span>
+                <span>
+                  <b-icon icon="sword" />
+                </span>
                 <header>
                   <h3>Turf Wars</h3>
                 </header>
@@ -131,9 +139,11 @@
 </template>
 
 <script>
+import BIcon from '~/components/BIcon'
 import IpButton from '~/components/IpButton'
 export default {
   components: {
+    BIcon,
     IpButton
   }
 }

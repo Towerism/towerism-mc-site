@@ -3,7 +3,9 @@
     <article id="main">
 
       <header class="special container">
-        <span class="icon solid fa-user-shield"></span>
+        <span>
+          <b-icon icon="medieval" heading />
+        </span>
         <h2>Our rules <strong>protect</strong> our players</h2>
         <p>We appreciate our players greatly, and we respect their time investment on the server. Therefore we take breaking these very seriously, because doing so undermines our players' time and effort. Please follow the rules, and enjoy playing!</p>
       </header>
@@ -38,7 +40,11 @@
 </template>
 
 <script>
+import BIcon from '~/components/BIcon'
 export default {
-  layout: 'page'
+  layout: 'page',
+  components: {
+    BIcon
+  }
 }
 </script>

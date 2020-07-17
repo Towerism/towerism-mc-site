@@ -3,7 +3,9 @@
     <article id="main">
 
       <header class="special container">
-        <span class="icon solid fa-vote-yea"></span>
+        <span>
+          <b-icon icon="good" heading />
+        </span>
         <h2>Vote daily for our server, receive <strong>FREE</strong> rewards</h2>
         <p>We are listed at the following services listed below. Visit the links below and enter your username to get your reward. Just remember that you must be online to receive the reward.</p>
       </header>
@@ -40,8 +42,12 @@
 </template>
 
 <script>
+import BIcon from '~/components/BIcon'
 export default {
   layout: 'page',
+  components: {
+    BIcon
+  },
   data() {
     return {
       serverLists: [
