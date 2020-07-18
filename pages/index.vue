@@ -33,7 +33,7 @@
 
       <header class="special container">
         <span class="b-icon--heading-container">
-          <b-icon icon="brandenburg-gate" heading />
+          <b-icon icon="blueprint" heading />
         </span>
         <p class="spacer">&nbsp;</p>
         <h2>Blueprints is all about creating a safe and fun environment
