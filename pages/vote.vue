@@ -3,9 +3,10 @@
     <article id="main">
 
       <header class="special container">
-        <span>
-          <b-icon icon="good" heading />
+        <span class="b-icon--heading-container">
+          <b-icon icon="impression-rate" heading />
         </span>
+        <br />
         <br />
         <br />
         <h2>Vote daily for our server, receive <strong>FREE</strong> rewards</h2>

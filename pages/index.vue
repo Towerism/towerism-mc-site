@@ -32,11 +32,10 @@
     <article id="main">
 
       <header class="special container">
-        <span>
-          <b-icon icon="tower" heading />
+        <span class="b-icon--heading-container">
+          <b-icon icon="brandenburg-gate" heading />
         </span>
-        <br />
-        <br />
+        <p class="spacer">&nbsp;</p>
         <h2>Blueprints is all about creating a safe and fun environment
         <br />
         for builders, designers, and of course Kpop fans.</h2>
@@ -90,7 +89,7 @@
 
               <section>
                 <span>
-                  <b-icon icon="masks" />
+                  <b-icon icon="theater" />
                 </span>
                 <header>
                   <h3>Hide and Seek</h3>
@@ -105,7 +104,7 @@
 
               <section>
                 <span>
-                  <b-icon icon="sword" />
+                  <b-icon icon="archery" />
                 </span>
                 <header>
                   <h3>Turf Wars</h3>

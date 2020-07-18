@@ -415,7 +415,7 @@ header {
 
   &.special {
     margin-bottom: 5em;
-    padding-top: 7em;
+    padding-top: 1.6em;
     position: relative;
     text-align: center;
 
@@ -448,18 +448,23 @@ header {
       padding-top: 1.5em;
     }
 
-    .b-icon--heading {
+    .b-icon--heading-container {
       cursor: default;
       left: 0;
       position: absolute;
       text-align: center;
       top: -12px;
       width: 100%;
+      margin-bottom: 50px;
 
       &:before {
         font-size: 3.5em;
         opacity: 0.35;
       }
+    }
+
+    .spacer {
+      margin-top: 1.3em;
     }
   }
 }
@@ -1272,8 +1277,12 @@ body.index #main {
 
   header {
     &.special {
-      padding-top: 5.5em;
+      padding-top: 1.5em;
       margin-bottom: 4em;
+
+      .spacer {
+        margin-top: 1.6em;
+      }
     }
   }
 }
@@ -1388,6 +1397,11 @@ body.index #main {
     &.special {
       padding-left: 2.5em;
       padding-right: 2.5em;
+      padding-top: 6em;
+
+      .spacer {
+        margin-top: -2em;
+      }
     }
   }
 
@@ -1466,7 +1480,7 @@ body.index #main {
 
     &.special {
       margin-bottom: 4em;
-      padding-top: 5em;
+      padding-top: 6.0em;
 
       &:before,
       &:after {
@@ -1475,6 +1489,10 @@ body.index #main {
 
       h2 + p {
         padding-top: 1.25em;
+      }
+
+      .spacer {
+        margin-top: -3em;
       }
     }
   }
@@ -1755,6 +1773,7 @@ body.index #main {
 
     &.special {
       margin-bottom: 3em;
+      padding-top: 6em;
       padding-left: 1.5em;
       padding-right: 1.5em;
 
@@ -1766,6 +1785,10 @@ body.index #main {
       .icon {
         font-size: 0.75em;
         top: 1.5em;
+      }
+
+      .spacer {
+        margin-top: -3em;
       }
     }
 

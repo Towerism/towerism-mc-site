@@ -3,9 +3,10 @@
     <article id="main">
 
       <header class="special container">
-        <span>
-          <b-icon icon="medieval" heading />
+        <span class="b-icon--heading-container">
+          <b-icon icon="shield" heading />
         </span>
+        <br />
         <br />
         <br />
         <h2>Our rules <strong>protect</strong> our players</h2>
