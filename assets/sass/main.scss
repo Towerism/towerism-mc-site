@@ -847,13 +847,13 @@ button,
   }
 
   &.primary {
-    background: _palette(one, bg);
-    border-color: _palette(one, bg);
-    color: _palette(one, fg) !important;
+    background: _palette(accent, bg);
+    border-color: _palette(accent, bg);
+    color: _palette(accent, fg) !important;
 
     &:hover {
-      background: lighten(_palette(one, bg), 5) !important;
-      border-color: lighten(_palette(one, bg), 5) !important;
+      background: lighten(_palette(accent, bg), 5) !important;
+      border-color: lighten(_palette(accent, bg), 5) !important;
     }
   }
 
