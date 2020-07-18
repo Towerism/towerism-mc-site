@@ -35,6 +35,8 @@
         <span>
           <b-icon icon="tower" heading />
         </span>
+        <br />
+        <br />
         <h2>Blueprints is all about creating a safe and fun environment
         <br />
         for builders, designers, and of course Kpop fans.</h2>

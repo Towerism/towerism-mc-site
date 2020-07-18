@@ -41,8 +41,6 @@ export default {
 }
 
 .b-icon--heading {
-  margin-top: -110px;
-  margin-bottom: 50px;
   width: 90px;
   height: 90px;
 }

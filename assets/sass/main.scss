@@ -448,13 +448,12 @@ header {
       padding-top: 1.5em;
     }
 
-    .icon {
+    .b-icon--heading {
       cursor: default;
-      height: 7em;
       left: 0;
       position: absolute;
       text-align: center;
-      top: 1em;
+      top: -12px;
       width: 100%;
 
       &:before {
