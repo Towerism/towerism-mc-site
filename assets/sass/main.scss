@@ -1116,7 +1116,7 @@ button,
 }
 
 #banner {
-  background-attachment: scroll, scroll, scroll, fixed;
+  background-attachment: fixed;
   background-color: _palette(three, bg);
   background-image: url('images/light-bl.svg'), url('images/light-br.svg'),
     url('images/overlay.png'), url('../../images/banner.jpg');
@@ -1350,14 +1350,14 @@ body.index #main {
   /* Banner */
 
   #banner {
-    background-attachment: scroll;
+    //background-attachment: scroll;
   }
 
   /* CTA */
 
   #cta {
     padding: 4em;
-    background-attachment: scroll;
+    //background-attachment: scroll;
   }
 
   /* Footer */
