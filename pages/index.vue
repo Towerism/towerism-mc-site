@@ -80,7 +80,7 @@
                   <h3>Survival</h3>
                 </header>
                 <p>
-                  We have an economy, a crate system, cave surprises, and much more. Every single crate tier can be found just by playing. You'll have a chance to find them through certain activities. But they won't be spoiled here!
+                  We have dungeons, clans, auto farms, cave surprises, and much more. You'll also have a chance to find loot crates through certain activities. But they won't be spoiled here!
                 </p>
               </section>
 
