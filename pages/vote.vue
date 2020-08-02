@@ -75,6 +75,10 @@ export default {
           voteLink: 'https://topg.org/Minecraft/in-609427',
           text: 'topg.org',
           parenthesis: 'every 12h'
+        },
+        {
+          voteLink: 'https://minecraftservers.network/server-blueprints.150/vote',
+          text: 'minecraftservers.network'
         }
       ],
       discordLink: 'https://discord.gg/wqZnDNh'
