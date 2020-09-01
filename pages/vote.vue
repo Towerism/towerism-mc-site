@@ -81,7 +81,7 @@ export default {
           text: 'minecraftservers.network'
         }
       ],
-      discordLink: 'https://discord.gg/wqZnDNh'
+      discordLink: this.$store.state.discordLink
     }
   }
 }
