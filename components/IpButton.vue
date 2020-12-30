@@ -12,7 +12,7 @@ export default {
     return {
       copiedText: 'Copied!',
       showingCopiedMessage: false,
-      playAddress: 'hub.blueprints.gg'
+      playAddress: 'play.towerismmc.com'
     }
   },
   computed: {

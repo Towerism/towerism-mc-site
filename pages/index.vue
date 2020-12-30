@@ -12,9 +12,9 @@
       <div class="inner">
 
         <header>
-          <h2>BLUEPRINTS</h2>
+          <h2>TOWERISM MC</h2>
         </header>
-        <p>Finally a Minecraft server for
+        <p>Finally a SMP server for
         <br />builders, designers, and
         <br />Kpop fans
         <br />
@@ -36,7 +36,7 @@
           <b-icon icon="blueprint" heading />
         </span>
         <p class="spacer">&nbsp;</p>
-        <h2>Blueprints is all about creating a safe and fun environment
+        <h2>Towerism MC is all about creating a safe and fun environment
         <br />
         for builders, designers, and of course Kpop fans.</h2>
         <p>Our community consists of mature young adults who are passionate
@@ -54,12 +54,12 @@
           <div class="row gtr-50">
             <div class="col-12-narrower">
               <header>
-                <h2>Our <strong>network</strong> offers multiple gamemodes.</h2>
+                <h2>Our <strong>SMP</strong> server offers a near-vanilla experience.</h2>
               </header>
-              <p>Our survival server is the main attraction. Every other gamemode serves as a diversion for when you need a break from survival. Turf Wars and Hide & Seek are two of the diversions; you can randomly find mystery boxes while you play. Mystery boxes contain whacky gadgets and cosmetics. There are over 500 cosmetics and gadgets to collect and show off to your friends across the server!</p>
+              <p>The SMP (read 'Survival Multiplayer') philosophy is "less is more". Towerism MC feels like vanilla minecraft, but there is just enough extra goodies to keep you coming back for more.</p>
               <footer>
                 <ul class="buttons">
-                  <li><a href="#gamemodes" class="button scrolly">Find Out More</a></li>
+                  <li><a href="#survival" class="button scrolly">Find Out More</a></li>
                 </ul>
               </footer>
 
@@ -68,19 +68,19 @@
         </section>
 
       <!-- Two -->
-        <section class="wrapper style1 container special" id="gamemodes">
+        <section class="wrapper style1 container special" id="survival">
           <div class="row">
             <div class="col-4 col-12-narrower">
 
               <section>
                 <span>
-                  <b-icon icon="bread" />
+                  <b-icon icon="emerald" />
                 </span>
                 <header>
-                  <h3>Survival</h3>
+                  <h3>Emerald Economy</h3>
                 </header>
                 <p>
-                  We have dungeons, clans, auto farms, cave surprises, and much more. You'll also have a chance to find loot crates through certain activities. But they won't be spoiled here!
+                  The economy is based on emeralds. Trade with other players, custom villager NPCs, buy unique perks, etc., all with emeralds. Keep your emeralds in the bank while exploring so you don't lose your amassed wealth.
                 </p>
               </section>
 
@@ -89,13 +89,13 @@
 
               <section>
                 <span>
-                  <b-icon icon="theater" />
+                  <b-icon icon="holy-grail" />
                 </span>
                 <header>
-                  <h3>Hide and Seek</h3>
+                  <h3>Quests</h3>
                 </header>
                 <p>
-                  Play on 2 carefully crafted maps. Each map designed to enhance the fun for the hider and the challenge for the seeker. Earn coins while playing, and spend them on various perks. The perks you can unlock range from a higher chance to become the hider to being able to change your disguise mid-game.
+                  Obtain emeralds and other rewards by completing quests. These quests are by no means required, but many players eventually find themselves completing them when they need a reprieve from their usual survival activities.
                 </p>
               </section>
 
@@ -104,13 +104,13 @@
 
               <section>
                 <span>
-                  <b-icon icon="archery" />
+                  <b-icon icon="crate" />
                 </span>
                 <header>
-                  <h3>Turf Wars</h3>
+                  <h3>Crates</h3>
                 </header>
                 <p>
-                  Two teams face off in a build-combat-build cadence to see who will be the first to claim the whole arena. Four unlockable kits ensure the game stays fresh. Keep the fun going: there are 4 maps which rotate each round.
+                  Crates give fun cosmetics which you can use to express yourself and set yourself apart from other players. Keys to open these crates can be obtained by completing certain quests.
                 </p>
               </section>
 
@@ -125,8 +125,8 @@
     <section id="cta">
 
       <header>
-        <h2>What are you waiting for?</h2>
-        <p>You've read this far. Get on the server and play!</p>
+        <h2>Wondering how to join?</h2>
+        <p>Your friends are waiting for you, come on!</p>
       </header>
       <footer>
         <ul class="buttons">
